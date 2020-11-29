@@ -1,0 +1,4 @@
+sudo -i -u postgres - сменить пользователя
+psql - войти в клиент
+/l - все БД
+\i /home/maria/Desktop/postgre/create_table.sql - выполнить скрипт
