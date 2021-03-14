@@ -1,4 +1,9 @@
 sudo -i -u postgres - сменить пользователя
 psql - войти в клиент
 \l - все БД
+DROP DATABASE IF EXISTS test_db; - удалить бд
+
+\du - все пользователи
+DROP USER test; - удалить пользователя
+
 \i /home/maria/Desktop/postgre/create_table.sql - выполнить скрипт
